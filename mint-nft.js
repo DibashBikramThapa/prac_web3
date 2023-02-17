@@ -15,16 +15,18 @@ const contract = new Contract(
     signer
   );
 
-  const get_count = async () => {
+  exports.get_count = async () => {
     const Count = await contract.getCount();
     console.log(" Count is ", Count);
+    return Count
   };
 
-  get_count()
+//  exports.get_count()
 
-  const update_count = async () => {
+  exports.increase_count = async () => {
     const increase = await contract.increment();
     const result = await increase.wait()
-    get_count()
+    // get_count()
   };
-//   update_count()
+//  increase_count()
+// exports.contract

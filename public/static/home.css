@@ -1,0 +1,11 @@
+.custom_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.custom_card{
+   text-align: center;
+   background-color: black;
+   color: white;
+}

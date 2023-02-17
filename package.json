@@ -1,17 +1,18 @@
 {
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "ethers": "^6.0.4"
-  },
   "name": "prac_web3",
   "version": "1.0.0",
-  "main": "mint-nft.js",
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "node mint-nft.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.0.4",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
 }
